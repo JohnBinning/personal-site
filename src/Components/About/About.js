@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About = () => {
@@ -6,10 +5,10 @@ const About = () => {
     <article className="about">
       <h3>About Me</h3>
       <p>
-        I am a something
+        Something about me
       </p>
     </article>
   )
-}
+};
 
 export default About;
