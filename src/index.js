@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory'
-import App from './Components/App/App';
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
