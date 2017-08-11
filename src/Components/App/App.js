@@ -19,13 +19,16 @@ class App extends Component {
       <div className="app">
         <NavBar />
         <section className='right-side'>
+
           <div className='logo-container'>
-            <img className='logo' src='images/logo.png'/>
+            <img className='logo' src='images/clear-circle.png'/>
           </div>
-          <Route path='/projects' component={ Projects } />
-          <Route path='/contact' component={ Contact } />
-          <Route path='/about' exact component={ About } />
-          <Route path='/' exact component={ About } />
+          <div className='right-side-in'>
+            <Route path='/projects' component={ Projects } />
+            <Route path='/contact' component={ Contact } />
+            <Route path='/about' exact component={ About } />
+            <Route path='/' exact component={ About } />
+          </div>
         </section>        
         
       </div>

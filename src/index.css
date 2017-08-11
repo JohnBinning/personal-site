@@ -26,11 +26,12 @@ body {
 }
 
 .logo-container {
-  background-color: rgba(0,0,0,.6);
   margin-top: 40px;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  margin-bottom: 40px;
+  /*background-color: rgba(255,255,255,.8);*/
+  /*border-radius: 50%;*/
+  /*height: 100px;*/
+  /*width: 100px;*/
 }
 
 .navbar {
@@ -39,14 +40,27 @@ body {
   flex-direction: column;
 }
 
+.inner-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-in {
+  /*background-color: rgba(255,255,255,.8);*/
+}
+
+
 .right-side {
+  background: url('./images/peakSunset.jpg') no-repeat right;
   width: 90%;
-  height: 100vh;
-  background-image: url('./images/ImogenePass.jpg');
+  background-attachment: fixed;
   background-size: cover;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-position-x: 68%;*/
+  background-position-x: 68%;
+  padding: 70px;
 }
 
