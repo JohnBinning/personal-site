@@ -21,7 +21,7 @@ class App extends Component {
         <section className='right-side'>
 
           <div className='logo-container'>
-            <img className='logo' src='images/clear-circle.png'/>
+            <img className='logo' src='images/whiteCircle.png'/>
           </div>
           <div className='right-side-in'>
             <Route path='/projects' component={ Projects } />

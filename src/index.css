@@ -19,8 +19,8 @@ body {
 }
 
 .logo {
-  height: 70px;
-  width: 70px;
+  height: 110px;
+  width: 110px;
   margin: 10px;
   margin-left: 15px;
 }
@@ -28,7 +28,7 @@ body {
 .logo-container {
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: rgba(255,255,255,.8);
+  /*background-color: rgba(255,255,255,.8);*/
   /*border-radius: 50%;*/
   /*height: 100px;*/
   /*width: 100px;*/
@@ -52,7 +52,7 @@ body {
 }
 
 .right-side {
-  background: url('./images/mountainSunset.jpg') no-repeat right;
+  background: url('./images/lookout.jpg') no-repeat right;
   width: 90%;
   background-attachment: fixed;
   background-size: cover;
