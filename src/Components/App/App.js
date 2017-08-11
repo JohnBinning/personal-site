@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, NavLink } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { NavBar } from '../NavBar/NavBar';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
@@ -21,7 +21,7 @@ class App extends Component {
         <section className='right-side'>
 
           <div className='logo-container'>
-            <img className='logo' src='images/whiteCircle.png'/>
+            <img className='logo' alt="John's logo" src='images/whiteCircle.png'/>
           </div>
           <div className='right-side-in'>
             <Route path='/projects' component={ Projects } />

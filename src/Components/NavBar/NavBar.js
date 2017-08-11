@@ -6,7 +6,7 @@ export const NavBar = () => {
   return (
     <article className='navbar'>
       <div className='inner-nav'>
-        <img className='logo' src='images/logo.png'/>
+        <img className='logo' alt="John's logo" src='images/logo.png'/>
         <h1>John Binning</h1>
         <h5>Front-End Developer</h5>
         <NavLink to='/About' className='aside-nav' activeClassName='selected'>About</NavLink>
