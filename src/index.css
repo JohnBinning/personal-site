@@ -38,6 +38,17 @@ body {
   width: 10%;
   margin: 10%;
   flex-direction: column;
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Merriweather Sans', sans-serif;*/
+  font-family: 'Play', sans-serif;
+
+}
+
+.nav-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
 }
 
 .inner-nav {
@@ -63,5 +74,10 @@ body {
   align-items: center;
   background-position-x: 68%;
   padding: 70px;
+}
+
+.project-image {
+  max-width: 600px;
+  max-height: 400px;
 }
 

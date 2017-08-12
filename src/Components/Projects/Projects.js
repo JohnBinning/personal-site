@@ -7,7 +7,28 @@ const Projects = () => {
       
       <figure className='projects-wrapper'>
         <figcaption>
+          <h2>WanderList </h2>
+          <img className='project-image' src='images/wanderlist.gif' alt='wanderlist preview'/>
+          <a href='https://github.com/JohnBinning/WanderList'>{'githubIcon'}</a>
+          <a href='http://mywanderlist.surge.sh/'>{'websiteIcon'}</a>
+          <p className='project-description'>
+            WanderList was created in two weeks during my third module as a student at the Turing School of Software and Design.
+            It helps users track items on their bucket list, and uses D3 and Google Maps for data visualization.
+            This was a solo project.
+          </p>
+          <div className='project-stack'>
+            <h3>The Stack:</h3>
+            <p>Front End: <span>React, D3</span></p>
+            <p>Back End: <span>No backend as of now, I hope to implement one soon</span></p>
+            <p>Testing: <span>Enzyme, Jest, FetchMock</span></p>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure className='projects-wrapper'>
+        <figcaption>
           <h2>Movie Tracker </h2>
+          <img className='project-image' src='images/movieTracker.gif' alt='movieTracker preview'/>
           <a href='https://github.com/JohnBinning/movieTracker'>{'github'}</a>
           <a href='hhttps://jenn-peavler-movie-tracker.herokuapp.com/'>{'website'}</a>
           <p>
@@ -25,9 +46,11 @@ const Projects = () => {
           </div>
         </figcaption>
       </figure>
-      <figure className='Projects-block'>
+
+      <figure className='projects-wrapper'>
         <figcaption>
           <h2>Jet Fuel </h2>
+          <img className='project-image' src='images/jetfuel.gif' alt='jet fuel preview'/>
           <a href='https://github.com/JohnBinning/jetFuel'>{'githubIcon'}</a>
           <a href='https://steelbirdfood.herokuapp.com/'>{'websiteIcon'}</a>
           <p className='project-description'>
@@ -42,8 +65,8 @@ const Projects = () => {
             <p>Testing: <span>Mocha, Chai</span></p>
           </div>
         </figcaption>
-        
       </figure>
+      
     </section>
   )
 }
