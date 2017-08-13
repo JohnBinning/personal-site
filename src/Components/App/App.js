@@ -5,6 +5,7 @@ import { NavBar } from '../NavBar/NavBar';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import About from '../About/About';
+import Resume from '../Resume/Resume';
 
 
 import './App.css';
@@ -27,6 +28,7 @@ class App extends Component {
           <div className='right-side-in'>
             <Route path='/projects' component={ Projects } />
             <Route path='/contact' component={ Contact } />
+            <Route path='/resume' component={ Resume } />
             <Route path='/about' exact component={ About } />
             <Route path='/' exact component={ About } />
           </div>
