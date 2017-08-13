@@ -9,8 +9,10 @@ const Projects = () => {
         <figcaption>
           <h2>WanderList </h2>
           <img className='project-image' src='images/wanderlist.gif' alt='wanderlist preview'/>
-          <a href='https://github.com/JohnBinning/WanderList'>{'githubIcon'}</a>
-          <a href='http://mywanderlist.surge.sh/'>{'websiteIcon'}</a>
+          <div className='project-links'>
+            <a href='https://github.com/JohnBinning/WanderList' className='project-github'>{'GitHub Repo'}</a>
+            <a href='http://mywanderlist.surge.sh/' className='project-hosted'>{'Live Site'}</a>
+          </div>
           <p className='project-description'>
             WanderList was created in two weeks during my third module as a student at the Turing School of Software and Design.
             It helps users track items on their bucket list, and uses D3 and Google Maps for data visualization.
@@ -29,8 +31,10 @@ const Projects = () => {
         <figcaption>
           <h2>Movie Tracker </h2>
           <img className='project-image' src='images/movieTracker.gif' alt='movieTracker preview'/>
-          <a href='https://github.com/JohnBinning/movieTracker'>{'github'}</a>
-          <a href='hhttps://jenn-peavler-movie-tracker.herokuapp.com/'>{'website'}</a>
+          <div className='project-links'>
+            <a href='https://github.com/JohnBinning/movieTracker' className='project-github'>{'GitHub Reop'}</a>
+            <a href='hhttps://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
+          </div>
           <p>
             Movie Tracker was created in one week during my third module as a student at the Turing School of Software and Design.
             It is an app that allows users to track trending movies and save them as favorites.  
@@ -51,8 +55,10 @@ const Projects = () => {
         <figcaption>
           <h2>Jet Fuel </h2>
           <img className='project-image' src='images/jetfuel.gif' alt='jet fuel preview'/>
-          <a href='https://github.com/JohnBinning/jetFuel'>{'githubIcon'}</a>
-          <a href='https://steelbirdfood.herokuapp.com/'>{'websiteIcon'}</a>
+          <div className='project-links'>
+            <a href='https://github.com/JohnBinning/jetFuel' className='project-github'>{'GitHub Repo'}</a>
+            <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
+          </div>
           <p className='project-description'>
             jetFuel was created in one week during my final module as a student at the Turing School of Software and Design.
             It is a link shortening service, similar to Bit.ly or TinyURL.
