@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
+// import { Social } from '../Social/Social';
 import { NavBar } from '../NavBar/NavBar';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';

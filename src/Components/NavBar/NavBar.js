@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Social } from '../Social/Social';
+
 // import './assets/stylesheets/NavBar.css';
 
 export const NavBar = () => {
@@ -15,6 +17,7 @@ export const NavBar = () => {
           <NavLink to='/Resume' className='aside-nav' activeClassName='selected'>Resume</NavLink>
           <NavLink to='/Contact' className='aside-nav' activeClassName='selected'>Contact</NavLink>
         </div>
+      <Social />
       </div>
     </article>
   )
