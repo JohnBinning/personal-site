@@ -9,7 +9,6 @@ const Resume = () => {
         <h3>PROJECTS</h3>
         <Link to='/projects' ><div>See Projects</div></Link>
       </figure>
-
       <figure>
         <h3>SKILLS</h3>
         <div className='skills-container'>
@@ -27,9 +26,7 @@ const Resume = () => {
         </div>
       </figure>
       <figure>
-
         <h3>EXPERIENCE</h3>
-
         <div className='experience-container'>
           <div className='job-container'>
             <h4 className='job-title'>Human Resources Intake Coordinator</h4>
@@ -37,7 +34,6 @@ const Resume = () => {
             <p className='job-duties'>I organized collaboration between various departments to streamline our intake process. I also trained parents of children with disabilities and helped them coordinate with the government to receive services.</p>
           </div>
         </div>
-
         <div className='experience-container'>
           <div className='job-container'>
             <h4 className='job-title'>Operations/Claim Finance</h4>
@@ -45,7 +41,6 @@ const Resume = () => {
             <p className='job-duties'>I audited payments made to and from the Travelers Claims department, ensuring that they met government imposed financial guidelines.</p>
           </div>
         </div>
-
         <div className='experience-container'>
           <div className='job-container'>
             <h4 className='job-title'>Claims Technician</h4>
@@ -53,7 +48,6 @@ const Resume = () => {
             <p className='job-duties'>I managed claim information distribution for the Northeast and Southeast US. I also researched and developed efficient cient claim handling on the Process and Procedures Council.</p>
           </div>
         </div>
-
         <div className='experience-container'>
           <div className='job-container'>
             <h4 className='job-title'>History and Writing Instructor</h4>
@@ -61,24 +55,18 @@ const Resume = () => {
             <p className='job-duties'>I developed and taught lesson plans in history, writing, and grammar. I tutored children in both an individual and a classroom setting.</p>
           </div>
         </div>
-
       </figure>
-
       <figure>
         <h3>EDUCATION</h3>
-
         <article className='school-container'>
           <h4 className='education-type'>BA - HISTORY</h4>
           <div className='school'>University of Colorado, Boulder</div>
         </article>
-
         <article className='school-container'>
           <h4 className='education-type'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
           <div className='school'>Turing School of So ware and Design / Denver, CO</div>
         </article>
-
       </figure>
-
     </article>
   )
 };
