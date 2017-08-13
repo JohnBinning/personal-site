@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-// import { Social } from '../Social/Social';
+import { Route, Link } from 'react-router-dom';
 import { NavBar } from '../NavBar/NavBar';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
@@ -23,7 +22,9 @@ class App extends Component {
         <section className='right-side'>
 
           <div className='logo-container'>
-            <img className='logo' alt="John's logo" src='images/whiteCircle.png'/>
+            <Link to='/'>
+              <img className='logo' alt="John's logo" src='images/whiteCircle.png'/>
+            </Link>
           </div>
           <div className='right-side-in'>
             <Route path='/projects' component={ Projects } />
