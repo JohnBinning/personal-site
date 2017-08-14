@@ -4,6 +4,7 @@ import '../../stylesheets/Contact.css';
 const Contact = () => {
   return (
     <section className="Contact">
+      <h2 className='location-title'>Contact</h2>
       <form action="https://formspree.io/john.binning17@gmail.com"
       method="POST">
         <input className='contact-input' type="text" name="name" placeholder="Your Name"/>
