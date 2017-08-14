@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../stylesheets/Resume.css';
 
 const Resume = () => {
   return (
@@ -7,7 +8,7 @@ const Resume = () => {
       <h2 className='location-title'>Resume</h2>
       <figure>
         <h3 className='title'>PROJECTS</h3>
-        <Link to='/projects' ><div className='grey-block'>See Projects</div></Link>
+        <Link to='/projects' ><div className='grey-block projects-link'>Click to See Projects</div></Link>
       </figure>
       <figure>
         <h3 className='title'>SKILLS</h3>
@@ -60,7 +61,7 @@ const Resume = () => {
       </figure>
       <figure>
         <h3 className='title'>EDUCATION</h3>
-        <div  className='grey-block'>
+        <div  className='grey-block education-wrapper'>
           <article className='school-container'>
             <h4 className='education-type'>BA - HISTORY</h4>
             <div className='school'>University of Colorado, Boulder</div>

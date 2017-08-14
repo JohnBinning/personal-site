@@ -34,7 +34,7 @@ const Projects = () => {
             <h3 className='project-title'>Movie Tracker </h3>
             <img className='project-image' src='images/movieTracker.gif' alt='movieTracker preview'/>
             <div className='project-links'>
-              <a href='https://github.com/JohnBinning/movieTracker' className='project-github'>{'GitHub Reop'}</a>
+              <a href='https://github.com/JohnBinning/movieTracker' className='project-github'>{'GitHub Repo'}</a>
               <a href='hhttps://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
             </div>
             <p className='project-description'>

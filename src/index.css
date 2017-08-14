@@ -89,13 +89,6 @@ figure {
   /*flex-direction: column;*/
 }
 
-
-.resume {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 .about,
 .projects {
   text-align: center;

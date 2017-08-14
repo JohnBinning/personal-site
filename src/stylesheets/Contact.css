@@ -12,3 +12,7 @@ form {
   margin: 15px;
   padding: 10px;
 }
+
+.submit:hover {
+  cursor: pointer;
+}
