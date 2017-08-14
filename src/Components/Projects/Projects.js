@@ -37,7 +37,7 @@ const Projects = () => {
               <a href='https://github.com/JohnBinning/movieTracker' className='project-github'>{'GitHub Reop'}</a>
               <a href='hhttps://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
             </div>
-            <p>
+            <p className='project-description'>
               Movie Tracker was created in one week during my third module as a student at the Turing School of Software and Design.
               It is an app that allows users to track trending movies and save them as favorites.  
               It pulls movie details from The Movie DB.

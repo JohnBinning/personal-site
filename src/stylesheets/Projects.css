@@ -20,3 +20,7 @@
 .projects-location-title {
   margin-bottom: 30px !important;
 }
+
+.project-description {
+  line-height: 17pt;
+}
