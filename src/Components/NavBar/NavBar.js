@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Social } from '../Social/Social';
+import '../../stylesheets/NavBar.css';
+
 
 // import './assets/stylesheets/NavBar.css';
 

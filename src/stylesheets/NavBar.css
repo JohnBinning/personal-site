@@ -1,0 +1,31 @@
+.nav-link {
+  color: black;
+}
+
+.selected {
+  color: #FB0D1B !important;
+}
+
+.nav-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+}
+
+.inner-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 10%;
+  margin: 5%;
+  text-align: center;
+  min-width: 130px;
+  flex-direction: column;
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Merriweather Sans', sans-serif;*/
+  font-family: 'Play', sans-serif;
+}

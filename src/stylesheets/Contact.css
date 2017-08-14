@@ -1,0 +1,13 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact {
+  min-width: 400px;
+}
+
+.contact-input {
+  margin: 15px;
+  padding: 10px;
+}

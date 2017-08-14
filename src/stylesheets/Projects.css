@@ -1,0 +1,18 @@
+.project-image {
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.project-github,
+.project-hosted {
+  margin: 10px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-title {
+  font-size: 2rem;
+}
