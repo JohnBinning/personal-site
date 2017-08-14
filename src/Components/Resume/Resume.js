@@ -5,10 +5,10 @@ import '../../stylesheets/Resume.css';
 const Resume = () => {
   return (
     <article className="resume">
-      <h2 className='location-title'>Resume</h2>
+      {/*<h2 className='location-title'>Resume</h2>*/}
       <figure>
         <h3 className='title'>PROJECTS</h3>
-        <Link to='/projects' ><div className='grey-block projects-link'>Click to See Projects</div></Link>
+        <Link to='/projects' className='p-link' ><div className='grey-block projects-link'>Click to See Projects</div></Link>
       </figure>
       <figure>
         <h3 className='title'>SKILLS</h3>

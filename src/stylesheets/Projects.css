@@ -21,6 +21,10 @@
   margin-bottom: 30px !important;
 }
 
+.top-project {
+  margin-top: 0 !important;
+}
+
 .project-description {
   line-height: 17pt;
 }

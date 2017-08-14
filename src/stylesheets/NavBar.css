@@ -1,5 +1,12 @@
 .nav-link {
   color: black;
+  transition-duration: 1s;
+}
+
+.nav-link:hover {
+  /*letter-spacing: 1px;
+  transition-duration: 1s;*/
+  /*color: rgba(251, 13, 27, .5)*/
 }
 
 .selected {

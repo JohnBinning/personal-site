@@ -24,6 +24,7 @@ body {
   width: 110px;
   margin: 10px;
   margin-left: 15px;
+  margin-bottom: 0;
 }
 
 .logo-container {
@@ -61,13 +62,13 @@ figure {
 }
 
 .title {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .location-title {
   font-size: 2.5rem;
   margin-top: -10px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .right-side {
