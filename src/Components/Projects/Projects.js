@@ -5,7 +5,7 @@ import '../../stylesheets/Projects.css';
 const Projects = () => {
   return (
     <section className='projects'>
-      <h2 className='location-title'>Projects</h2>
+      <h2 className='location-title projects-location-title'>Projects</h2>
       <div className='project-block grey-block'>
         <figure className='project-wrapper'>
           <figcaption>
