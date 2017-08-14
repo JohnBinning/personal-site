@@ -12,10 +12,10 @@ export const NavBar = () => {
         <h1>John Binning</h1>
         <h5>Front-End Developer</h5>
         <div className='nav-link-wrapper'>
-          <NavLink to='/About' className='aside-nav' activeClassName='selected'>About</NavLink>
-          <NavLink to='/Projects' className='aside-nav' activeClassName='selected'>Projects</NavLink>
-          <NavLink to='/Resume' className='aside-nav' activeClassName='selected'>Resume</NavLink>
-          <NavLink to='/Contact' className='aside-nav' activeClassName='selected'>Contact</NavLink>
+          <NavLink to='/About' className='nav-link' activeClassName='selected'>About</NavLink>
+          <NavLink to='/Projects' className='nav-link' activeClassName='selected'>Projects</NavLink>
+          <NavLink to='/Resume' className='nav-link' activeClassName='selected'>Resume</NavLink>
+          <NavLink to='/Contact' className='nav-link' activeClassName='selected'>Contact</NavLink>
         </div>
       <Social />
       </div>

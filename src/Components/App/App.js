@@ -6,7 +6,6 @@ import Projects from '../Projects/Projects';
 import About from '../About/About';
 import Resume from '../Resume/Resume';
 
-
 import './App.css';
 
 class App extends Component {

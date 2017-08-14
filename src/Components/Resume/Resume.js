@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 const Resume = () => {
   return (
     <article className="resume">
-      <h2>Resume</h2>
+      <h2 className='location-title'>Resume</h2>
       <figure>
-        <h3>PROJECTS</h3>
-        <Link to='/projects' ><div>See Projects</div></Link>
+        <h3 className='title'>PROJECTS</h3>
+        <Link to='/projects' ><div className='grey-block'>See Projects</div></Link>
       </figure>
       <figure>
-        <h3>SKILLS</h3>
-        <div className='skills-container'>
+        <h3 className='title'>SKILLS</h3>
+        <div className='skills-container grey-block'>
           <p className='resume-skill'>Javascript</p>
           <p className='resume-skill'>HTML5 & CSS3</p>
           <p className='resume-skill'>React/Redux</p>
@@ -26,46 +26,50 @@ const Resume = () => {
         </div>
       </figure>
       <figure>
-        <h3>EXPERIENCE</h3>
-        <div className='experience-container'>
-          <div className='job-container'>
-            <h4 className='job-title'>Human Resources Intake Coordinator</h4>
-            <div className='employer'>PASCO Home Health / Lakewood, CO</div>
-            <p className='job-duties'>I organized collaboration between various departments to streamline our intake process. I also trained parents of children with disabilities and helped them coordinate with the government to receive services.</p>
+        <h3 className='title'>EXPERIENCE</h3>
+        <article className='exp-block grey-block'>
+          <div className='experience-container'>
+            <div className='job-container'>
+              <h4 className='job-title'>Human Resources Intake Coordinator</h4>
+              <div className='employer'>PASCO Home Health / Lakewood, CO</div>
+              <p className='job-duties'>I organized collaboration between various departments to streamline our intake process. I also trained parents of children with disabilities and helped them coordinate with the government to receive services.</p>
+            </div>
           </div>
-        </div>
-        <div className='experience-container'>
-          <div className='job-container'>
-            <h4 className='job-title'>Operations/Claim Finance</h4>
-            <div className='employer'>Travelers Insurance / Greenwood Village, CO</div>
-            <p className='job-duties'>I audited payments made to and from the Travelers Claims department, ensuring that they met government imposed financial guidelines.</p>
+          <div className='experience-container'>
+            <div className='job-container'>
+              <h4 className='job-title'>Operations/Claim Finance</h4>
+              <div className='employer'>Travelers Insurance / Greenwood Village, CO</div>
+              <p className='job-duties'>I audited payments made to and from the Travelers Claims department, ensuring that they met government imposed financial guidelines.</p>
+            </div>
           </div>
-        </div>
-        <div className='experience-container'>
-          <div className='job-container'>
-            <h4 className='job-title'>Claims Technician</h4>
-            <div className='employer'>The Hartford / Hartford, CT</div>
-            <p className='job-duties'>I managed claim information distribution for the Northeast and Southeast US. I also researched and developed efficient cient claim handling on the Process and Procedures Council.</p>
+          <div className='experience-container'>
+            <div className='job-container'>
+              <h4 className='job-title'>Claims Technician</h4>
+              <div className='employer'>The Hartford / Hartford, CT</div>
+              <p className='job-duties'>I managed claim information distribution for the Northeast and Southeast US. I also researched and developed efficient cient claim handling on the Process and Procedures Council.</p>
+            </div>
           </div>
-        </div>
-        <div className='experience-container'>
-          <div className='job-container'>
-            <h4 className='job-title'>History and Writing Instructor</h4>
-            <div className='employer'>Grace Academy / New Haven, CT</div>
-            <p className='job-duties'>I developed and taught lesson plans in history, writing, and grammar. I tutored children in both an individual and a classroom setting.</p>
+          <div className='experience-container'>
+            <div className='job-container'>
+              <h4 className='job-title'>History and Writing Instructor</h4>
+              <div className='employer'>Grace Academy / New Haven, CT</div>
+              <p className='job-duties'>I developed and taught lesson plans in history, writing, and grammar. I tutored children in both an individual and a classroom setting.</p>
+            </div>
           </div>
-        </div>
+        </article>
       </figure>
       <figure>
-        <h3>EDUCATION</h3>
-        <article className='school-container'>
-          <h4 className='education-type'>BA - HISTORY</h4>
-          <div className='school'>University of Colorado, Boulder</div>
-        </article>
-        <article className='school-container'>
-          <h4 className='education-type'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
-          <div className='school'>Turing School of So ware and Design / Denver, CO</div>
-        </article>
+        <h3 className='title'>EDUCATION</h3>
+        <div  className='grey-block'>
+          <article className='school-container'>
+            <h4 className='education-type'>BA - HISTORY</h4>
+            <div className='school'>University of Colorado, Boulder</div>
+          </article>
+          <article className='school-container'>
+            <h4 className='education-type'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
+            <div className='school'>Turing School of So ware and Design / Denver, CO</div>
+          </article>
+        </div>
       </figure>
     </article>
   )
