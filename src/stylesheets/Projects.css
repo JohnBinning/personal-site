@@ -15,6 +15,7 @@
 
 .project-title {
   font-size: 2rem;
+  /*color: #FB0D1B;*/
 }
 
 .projects-location-title {
@@ -27,4 +28,9 @@
 
 .project-description {
   line-height: 17pt;
+}
+
+.the-stack {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
 }

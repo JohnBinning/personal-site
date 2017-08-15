@@ -21,8 +21,8 @@ const Projects = () => {
               This was a solo project.
             </p>
             <div className='project-stack'>
-              <h4>The Stack:</h4>
-              <p>Front End: <span>React, D3</span></p>
+              <h4 className='the-stack'>The Stack:</h4>
+              <p className='front-end'>Front End: <span>React, D3</span></p>
               <p>Back End: <span>No backend as of now, I hope to implement one soon</span></p>
               <p>Testing: <span>Enzyme, Jest, FetchMock</span></p>
             </div>
@@ -35,7 +35,7 @@ const Projects = () => {
             <img className='project-image' src='images/movieTracker.gif' alt='movieTracker preview'/>
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/movieTracker' className='project-github'>{'GitHub Repo'}</a>
-              <a href='hhttps://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
+              <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
             </div>
             <p className='project-description'>
               Movie Tracker was created in one week during my third module as a student at the Turing School of Software and Design.
@@ -45,8 +45,8 @@ const Projects = () => {
               It was a group project, and I worked with Chris Jordan and Jenn Peavler.
             </p>
             <div className='project-stack'>
-              <h4>The Stack:</h4>
-              <p>Front End: <span>React, Redux, React Router</span></p>
+              <h4 className='the-stack'>The Stack:</h4>
+              <p className='front-end'>Front End: <span>React, Redux, React Router</span></p>
               <p>Back End: <span>NodeJS, Express</span></p>
               <p>Testing: <span>Enzyme, Jest, FetchMock</span></p>
             </div>
@@ -67,8 +67,8 @@ const Projects = () => {
               This was a paired project, and I worked with Leta Keane.
             </p>
             <div className='project-stack'>
-              <h4>The Stack:</h4>
-              <p>Front End: <span>jQuery</span></p>
+              <h4 className='the-stack'>The Stack:</h4>
+              <p className='front-end'>Front End: <span>jQuery</span></p>
               <p>Back End: <span>NodeJS, Express</span></p>
               <p>Testing: <span>Mocha, Chai</span></p>
             </div>
