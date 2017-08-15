@@ -12,8 +12,11 @@ const Projects = () => {
             <h3 className='project-title'>WanderList </h3>
             <img className='project-image' src='images/wanderlist.gif' alt='wanderlist preview'/>
             <div className='project-links'>
-              <a href='https://github.com/JohnBinning/WanderList' className='project-github'>{'GitHub Repo'}</a>
-              <a href='http://mywanderlist.surge.sh/' className='project-hosted'>{'Live Site'}</a>
+              <a href='https://github.com/JohnBinning/WanderList' className='project-github project-links'>
+                <img src='images/github.png' className='github project-link-social' alt='github' />
+                {'GitHub Repo'}
+              </a>
+              <a href='http://mywanderlist.surge.sh/' className='project-hosted project-links'>{'Live Site'}</a>
             </div>
             <p className='project-description'>
               WanderList was created in two weeks during my third module as a student at the Turing School of Software and Design.
@@ -34,8 +37,11 @@ const Projects = () => {
             <h3 className='project-title'>Movie Tracker </h3>
             <img className='project-image' src='images/movieTracker.gif' alt='movieTracker preview'/>
             <div className='project-links'>
-              <a href='https://github.com/JohnBinning/movieTracker' className='project-github'>{'GitHub Repo'}</a>
-              <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
+              <a href='https://github.com/JohnBinning/movieTracker' className='project-github project-links'>
+                <img src='images/github.png' className='github project-link-social' alt='github' />
+                {'GitHub Repo'}
+              </a>
+              <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted project-links'>{'Live Site'}</a>
             </div>
             <p className='project-description'>
               Movie Tracker was created in one week during my third module as a student at the Turing School of Software and Design.
@@ -58,8 +64,11 @@ const Projects = () => {
           <figcaption>
             <img className='project-image' src='images/jetfuel.gif' alt='jet fuel preview'/>
             <div className='project-links'>
-              <a href='https://github.com/JohnBinning/jetFuel' className='project-github'>{'GitHub Repo'}</a>
-              <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted'>{'Live Site'}</a>
+              <a href='https://github.com/JohnBinning/jetFuel' className='project-github project-links'>
+                <img src='images/github.png' className='github project-link-social' alt='github' />
+                {'GitHub Repo'}
+              </a>
+              <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted project-links'>{'Live Site'}</a>
             </div>
             <p className='project-description'>
               jetFuel was created in one week during my final module as a student at the Turing School of Software and Design.

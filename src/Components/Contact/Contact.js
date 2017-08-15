@@ -33,9 +33,8 @@ const Contact = () => {
           placeholder="Your Message"
           required/>
         <button 
-          className='contact-input submit' 
-          type="submit" 
-          className='submit-btn'>
+          className='contact-input submit-btn' 
+          type="submit">
           Send
         </button>
       </form>
