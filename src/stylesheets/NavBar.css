@@ -36,3 +36,11 @@
   /*font-family: 'Merriweather Sans', sans-serif;*/
   font-family: 'Play', sans-serif;
 }
+
+h1 {
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 5px;
+}

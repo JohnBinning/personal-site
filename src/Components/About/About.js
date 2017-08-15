@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../stylesheets/About.css';
 
 const About = () => {
   return (
     <article className="about">
       <h3 className='location-title'>About Me</h3>
-      <p className='grey-block'>
+      <p className='grey-block about-description'>
         I am a former insurance salesman/educator/HR rep turned web developer. 
         I am passionate about creating interactive and accessible applications that communicate ideas 
         in an intuitive fashion.

@@ -7,10 +7,37 @@ const Contact = () => {
       <h2 className='location-title'>Contact</h2>
       <form action="https://formspree.io/john.binning17@gmail.com"
       method="POST">
-        <input className='contact-input' type="text" name="name" placeholder="Your Name"/>
-        <input className='contact-input' type="email" name="_replyto" placeholder="Your Email"/>
-        <input className='contact-input' type="textarea" name="text" placeholder="Your Message"/>
-        <input className='contact-input submit' type="submit" value="Send"/>
+        <label htmlFor='name'>Your name</label>
+        <input 
+          className='contact-input' 
+          type="text" 
+          name="name" 
+          aria-label='your name'
+          placeholder="Jane Doe"
+          required/>
+        <label htmlFor='email'>Your email</label>
+        <input 
+          className='contact-input' 
+          type="email" 
+          name="_replyto"
+          aria-label='your email' 
+          placeholder="email@example.com"
+          required/>
+        <label htmlFor='message'>Your message</label>
+        <textarea 
+          rows="4"
+          className='contact-input' 
+          type="text" 
+          name="message" 
+          aria-label='your message'
+          placeholder="Your Message"
+          required/>
+        <button 
+          className='contact-input submit' 
+          type="submit" 
+          className='submit-btn'>
+          Send
+        </button>
       </form>
     </section>
   )

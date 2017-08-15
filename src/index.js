@@ -16,4 +16,3 @@ render(
 )
 registerServiceWorker();
 
-console.log('index firiing')
