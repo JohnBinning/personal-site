@@ -68,7 +68,7 @@ const Resume = () => {
           </article>
           <article className='school-container'>
             <h4 className='education-type'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
-            <div className='school'>Turing School of So ware and Design / Denver, CO</div>
+            <div className='school'>Turing School of Software and Design / Denver, CO</div>
           </article>
         </div>
       </figure>
