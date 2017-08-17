@@ -25,9 +25,9 @@ const Projects = () => {
             </p>
             <div className='project-stack'>
               <h4 className='the-stack'>The Stack:</h4>
-              <p className='front-end'>Front End: <span>React, D3</span></p>
-              <p>Back End: <span>No backend as of now, I hope to implement one soon</span></p>
-              <p>Testing: <span>Enzyme, Jest, FetchMock</span></p>
+              <p className='front-end'><strong>Front End: </strong><span>React, D3</span></p>
+              <p><strong>Back End: </strong><span>No backend as of now, I hope to implement one soon</span></p>
+              <p><strong>Testing: </strong><span>Enzyme, Jest, FetchMock</span></p>
             </div>
           </figcaption>
         </figure>
@@ -52,9 +52,9 @@ const Projects = () => {
             </p>
             <div className='project-stack'>
               <h4 className='the-stack'>The Stack:</h4>
-              <p className='front-end'>Front End: <span>React, Redux, React Router</span></p>
-              <p>Back End: <span>NodeJS, Express</span></p>
-              <p>Testing: <span>Enzyme, Jest, FetchMock</span></p>
+              <p className='front-end'><strong>Front End: </strong><span>React, Redux, React Router</span></p>
+              <p><strong>Back End: </strong><span>NodeJS, Express</span></p>
+              <p><strong>Testing: </strong><span>Enzyme, Jest, FetchMock</span></p>
             </div>
           </figcaption>
         </figure>
@@ -77,9 +77,9 @@ const Projects = () => {
             </p>
             <div className='project-stack'>
               <h4 className='the-stack'>The Stack:</h4>
-              <p className='front-end'>Front End: <span>jQuery</span></p>
-              <p>Back End: <span>NodeJS, Express</span></p>
-              <p>Testing: <span>Mocha, Chai</span></p>
+              <p className='front-end'><strong>Front End: </strong><span>jQuery</span></p>
+              <p><strong>Back End: </strong><span>NodeJS, Express</span></p>
+              <p><strong>Testing: </strong><span>Mocha, Chai</span></p>
             </div>
           </figcaption>
         </figure>

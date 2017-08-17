@@ -27,11 +27,11 @@
 }
 
 .navbar {
-  width: 10%;
+  /*width: 20%;*/
   margin: 5%;
   text-align: center;
   align-items: center;
-  min-width: 200px;
+  min-width: 120px;
   flex-direction: column;
   /*font-family: 'Play', sans-serif;*/
   font-family: 'Jura', sans-serif;
@@ -52,4 +52,33 @@ h5 {
 
 .front-end-dev {
   font-weight: 300;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .inner-nav {
+    position: static;
+  }
+
+  .nav-link-wrapper {
+    flex-direction: row;
+    height: auto;
+    min-width: 300px;
+  }
+
+  .nav-link {
+    
+  }
+
+  .john-binning {
+    margin: 15px;
+  }
+
+  .navbar {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
 }

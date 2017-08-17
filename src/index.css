@@ -92,3 +92,17 @@ figure {
 .projects {
   text-align: center;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+
+  .app {
+    flex-direction: column;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+}

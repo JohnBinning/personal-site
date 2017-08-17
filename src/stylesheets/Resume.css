@@ -28,3 +28,7 @@
 .education-wrapper {
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1000px) {
+
+}
