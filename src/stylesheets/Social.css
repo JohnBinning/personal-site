@@ -16,6 +16,14 @@
   margin-right: 12px;
 }
 
+.twitter {
+  margin-right: 10px;
+}
+
+.github {
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 1000px) {
 
   .social-links {
