@@ -66,8 +66,8 @@ const Projects = () => {
         </figure>
 
         <figure className='project-wrapper'>
-            <h3 className='project-title'>Jet Fuel </h3>
           <figcaption>
+            <h3 className='project-title'>Jet Fuel </h3>
             <img className='project-image' src='images/jetfuel.gif' alt='jet fuel preview'/>
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/jetFuel' className='project-github project-links'>
