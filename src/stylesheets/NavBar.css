@@ -3,11 +3,11 @@
   transition-duration: 1s;
 }
 
-.nav-link:hover {
-  /*letter-spacing: 1px;
-  transition-duration: 1s;*/
-  /*color: rgba(251, 13, 27, .5)*/
-}
+/*.nav-link:hover {
+  letter-spacing: 1px;
+  transition-duration: 1s;
+  color: rgba(251, 13, 27, .5)
+}*/
 
 .selected {
   color: #FB0D1B !important;
@@ -27,7 +27,6 @@
 }
 
 .navbar {
-  /*width: 20%;*/
   margin: 5%;
   text-align: center;
   align-items: center;
@@ -54,8 +53,6 @@ h5 {
   font-weight: 300;
 }
 
-
-
 @media screen and (max-width: 1000px) {
 
   .inner-nav {
@@ -66,10 +63,6 @@ h5 {
     flex-direction: row;
     height: auto;
     min-width: 300px;
-  }
-
-  .nav-link {
-    
   }
 
   .john-binning {
