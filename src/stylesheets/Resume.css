@@ -11,14 +11,12 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   color: black;
-  transition-duration: 1s;
 
   /*color: #FCC632;*/
     /*text-shadow: 2px 2px 20px rgba(251, 13, 27, .1);*/
 }
 
 .projects-link:hover {
-  transition-duration: 1s;
   /*text-shadow: 2px 2px 8px #FCC632;*/
   text-shadow: 1px 1px 15px rgba(251, 13, 27, .5);
 }

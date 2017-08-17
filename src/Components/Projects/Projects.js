@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/WanderList' className='project-github project-links'>
                 <img src='images/github.png' className='github project-link-social' alt='github' />
-                {'GitHub Repo'}
+                {'GitHub'}
               </a>
               <a href='http://mywanderlist.surge.sh/' className='project-hosted project-links'>{'Live Site'}</a>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/movieTracker' className='project-github project-links'>
                 <img src='images/github.png' className='github project-link-social' alt='github' />
-                {'GitHub Repo'}
+                {'GitHub'}
               </a>
               <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted project-links'>{'Live Site'}</a>
             </div>
@@ -66,7 +66,7 @@ const Projects = () => {
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/jetFuel' className='project-github project-links'>
                 <img src='images/github.png' className='github project-link-social' alt='github' />
-                {'GitHub Repo'}
+                {'GitHub'}
               </a>
               <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted project-links'>{'Live Site'}</a>
             </div>

@@ -3,16 +3,14 @@ import { NavLink } from 'react-router-dom';
 import { Social } from '../Social/Social';
 import '../../stylesheets/NavBar.css';
 
-
 // import './assets/stylesheets/NavBar.css';
 
 export const NavBar = () => {
   return (
     <article className='navbar'>
       <div className='inner-nav'>
-        {/*<img className='logo' alt="John's logo" src='images/logo.png'/>*/}
-        <h1>John Binning</h1>
-        <h5>Front-End Developer</h5>
+        <h1 className='john-binning nav-title'>John Binning</h1>
+        <h5 className='front-end-dev nav-title'>Front-End Developer</h5>
         <div className='nav-link-wrapper'>
           <NavLink to='/About' className='nav-link' activeClassName='selected'>About</NavLink>
           <NavLink to='/Projects' className='nav-link' activeClassName='selected'>Projects</NavLink>

@@ -15,7 +15,8 @@
 
 .project-title {
   font-size: 2rem;
-  /*color: #FB0D1B;*/
+  font-family: 'Jura', sans-serif;
+  /*font-family: 'Play', sans-serif;*/
 }
 
 .projects-location-title {
@@ -34,13 +35,11 @@
   font-size: 1.7rem;
   margin-bottom: 5px;
   font-weight: 700;
+  font-family: 'Jura', sans-serif;
+  /*font-family: 'Play', sans-serif;*/
+
 }
 
-.projects {
-  /*font-family: 'Josefin Sans', sans-serif;*/
-  /*font-family: 'Merriweather Sans', sans-serif;*/
-  font-family: 'Play', sans-serif;
-}
 
 .project-links {
   font-weight: 700;
@@ -48,6 +47,8 @@
   color: black;
   display: flex;
   align-items: center;
+  font-family: 'Jura', sans-serif;
+  /*font-family: 'Play', sans-serif;*/
 }
 
 .project-links:hover {
