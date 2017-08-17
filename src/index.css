@@ -32,11 +32,6 @@ body {
   margin-bottom: 40px;
 }
 
-.right-side-in {
-  /*background-color: rgba(255,255,255,.8);*/
-  /*padding: 30px;*/
-}
-
 .grey-block {
   background-color: rgba(255,255,255,.8);
   padding: 15px 30px;
@@ -79,12 +74,6 @@ figure {
   flex-direction: column;
   align-items: center;
   background-position-x: 68%;
-  /*padding: 70px;*/
-}
-
-.social-links {
-  /*display: flex;*/
-  /*flex-direction: column;*/
 }
 
 .about,
@@ -92,9 +81,7 @@ figure {
   text-align: center;
 }
 
-
 @media screen and (max-width: 1000px) {
-
 
   .app {
     flex-direction: column;
