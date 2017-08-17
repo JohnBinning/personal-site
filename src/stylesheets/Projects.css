@@ -61,6 +61,11 @@
   margin-right: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+
+  .project-image {
+    max-width: 100vw;
+  }
 
 }
+
