@@ -42,7 +42,6 @@ body {
   padding: 15px 30px;
   margin-left: 30px;
   margin-right: 30px;
-  /*padding-right: 60px;*/
   border-radius: 10px;
 }
 
@@ -91,4 +90,40 @@ figure {
 .about,
 .projects {
   text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+  .app {
+    flex-direction: column;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .grey-block {
+    padding: 1%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .logo-container {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
 }

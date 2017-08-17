@@ -28,3 +28,24 @@
 .education-wrapper {
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 600px) {
+
+  .resume-blocks {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+  }
+
+  .resume figure {
+    margin: 5%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .resume figure {
+    margin: 2%;
+  }
+
+}

@@ -8,11 +8,11 @@ const Resume = () => {
       {/*<h2 className='location-title'>Resume</h2>*/}
       <figure>
         <h3 className='title'>PROJECTS</h3>
-        <Link to='/projects' className='p-link' ><div className='grey-block projects-link'>Click to See Projects</div></Link>
+        <Link to='/projects' className='p-link' ><div className='grey-block projects-link resume-blocks'>Click to See Projects</div></Link>
       </figure>
       <figure>
         <h3 className='title'>SKILLS</h3>
-        <div className='skills-container grey-block'>
+        <div className='skills-container grey-block resume-blocks'>
           <p className='resume-skill'>Javascript</p>
           <p className='resume-skill'>HTML5 & CSS3</p>
           <p className='resume-skill'>React/Redux</p>
@@ -28,7 +28,7 @@ const Resume = () => {
       </figure>
       <figure>
         <h3 className='title'>EXPERIENCE</h3>
-        <article className='exp-block grey-block'>
+        <article className='exp-block grey-block resume-blocks'>
           <div className='experience-container'>
             <div className='job-container'>
               <h4 className='job-title'>Human Resources Intake Coordinator</h4>
@@ -61,12 +61,12 @@ const Resume = () => {
       </figure>
       <figure>
         <h3 className='title'>EDUCATION</h3>
-        <div  className='grey-block education-wrapper'>
+        <div  className='grey-block education-wrapper resume-blocks'>
           <article className='school-container'>
             <h4 className='education-type'>BA - HISTORY</h4>
             <div className='school'>University of Colorado, Boulder</div>
           </article>
-          <article className='school-container'>
+          <article className='school-container resume-blocks'>
             <h4 className='education-type'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
             <div className='school'>Turing School of Software and Design / Denver, CO</div>
           </article>
