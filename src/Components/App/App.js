@@ -25,10 +25,10 @@ class App extends Component {
             </Link>
           </div>
           <div className='right-side-in'>
-            <Route path='/projects' component={ Projects } />
-            <Route path='/contact' component={ Contact } />
-            <Route path='/resume' component={ Resume } />
-            <Route path='/about' exact component={ About } />
+            <Route path='/Projects' component={ Projects } />
+            <Route path='/Contact' component={ Contact } />
+            <Route path='/Resume' component={ Resume } />
+            <Route path='/About' exact component={ About } />
             <Route path='/' exact component={ About } />
           </div>
         </section>        

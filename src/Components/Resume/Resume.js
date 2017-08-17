@@ -31,28 +31,28 @@ const Resume = () => {
         <article className='exp-block grey-block resume-blocks'>
           <div className='experience-container'>
             <div className='job-container'>
-              <h4 className='job-title'>Human Resources Intake Coordinator</h4>
+              <h4 className='job-title'><strong>Human Resources Intake Coordinator</strong></h4>
               <div className='employer'>PASCO Home Health / Lakewood, CO</div>
               <p className='job-duties'>I organized collaboration between various departments to streamline our intake process. I also trained parents of children with disabilities and helped them coordinate with the government to receive services.</p>
             </div>
           </div>
           <div className='experience-container'>
             <div className='job-container'>
-              <h4 className='job-title'>Operations/Claim Finance</h4>
+              <h4 className='job-title'><strong>Operations/Claim Finance</strong></h4>
               <div className='employer'>Travelers Insurance / Greenwood Village, CO</div>
               <p className='job-duties'>I audited payments made to and from the Travelers Claims department, ensuring that they met government imposed financial guidelines.</p>
             </div>
           </div>
           <div className='experience-container'>
             <div className='job-container'>
-              <h4 className='job-title'>Claims Technician</h4>
+              <h4 className='job-title'><strong>Claims Technician</strong></h4>
               <div className='employer'>The Hartford / Hartford, CT</div>
               <p className='job-duties'>I managed claim information distribution for the Northeast and Southeast US. I also researched and developed efficient cient claim handling on the Process and Procedures Council.</p>
             </div>
           </div>
           <div className='experience-container'>
             <div className='job-container'>
-              <h4 className='job-title'>History and Writing Instructor</h4>
+              <h4 className='job-title'><strong>History and Writing Instructor</strong></h4>
               <div className='employer'>Grace Academy / New Haven, CT</div>
               <p className='job-duties'>I developed and taught lesson plans in history, writing, and grammar. I tutored children in both an individual and a classroom setting.</p>
             </div>
@@ -67,8 +67,8 @@ const Resume = () => {
             <div className='school'>University of Colorado, Boulder</div>
           </article>
           <article className='school-container resume-blocks'>
-            <h4 className='education-type'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
-            <div className='school'>Turing School of Software and Design / Denver, CO</div>
+            <h4 className='education-type frontend-web'>FRONTEND WEB DEVELOPMENT PROGRAM</h4>
+            <div className='school turing-school'>Turing School of Software and Design / Denver, CO</div>
           </article>
         </div>
       </figure>

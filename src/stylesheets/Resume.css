@@ -12,12 +12,9 @@
   letter-spacing: 3px;
   color: black;
 
-  /*color: #FCC632;*/
-    /*text-shadow: 2px 2px 20px rgba(251, 13, 27, .1);*/
 }
 
 .projects-link:hover {
-  /*text-shadow: 2px 2px 8px #FCC632;*/
   text-shadow: 1px 1px 15px rgba(251, 13, 27, .5);
 }
 
@@ -27,6 +24,37 @@
 
 .education-wrapper {
   margin-bottom: 40px;
+}
+
+.education-type {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.frontend-web {
+  margin-top: 30px;
+}
+
+.turing-school {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*font-family: 'Jura', sans-serif;*/
+}
+
+.employer {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.job-duties {
+  line-height: 16pt;
 }
 
 @media screen and (max-width: 600px) {
