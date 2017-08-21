@@ -50,11 +50,11 @@ const Projects = () => {
               </a>
             </div>
             <p className='project-description'>
-              Movie Tracker was created in one week during my third module as a student at the Turing School of Software and Design.
+              Movie Tracker was a group project created in one week during my third module as a student at the Turing School of Software and Design.
               It is an app that allows users to track trending movies and save them as favorites.  
               It pulls movie details from The Movie DB.
               Movie Tracker was assigned as an introductory project for Redux and React-Router.
-              It was a group project, and I worked with Chris Jordan and Jenn Peavler.
+              I worked with Chris Jordan and Jenn Peavler.
             </p>
             <div className='project-stack'>
               <h4 className='the-stack'>The Stack:</h4>
@@ -80,9 +80,9 @@ const Projects = () => {
               </a>
             </div>
             <p className='project-description'>
-              jetFuel was created in one week during my final module as a student at the Turing School of Software and Design.
+              jetFuel was a paired project created in one week during my final module as a student at the Turing School of Software and Design.
               It is a link shortening service, similar to Bit.ly or TinyURL.
-              This was a paired project, and I worked with Leta Keane.
+              It was created with with Leta Keane.
             </p>
             <div className='project-stack'>
               <h4 className='the-stack'>The Stack:</h4>
