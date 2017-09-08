@@ -23,7 +23,7 @@ const Projects = () => {
             </div>
             <p className='project-description'>
               WanderList was created in two weeks during my third module as a student at the Turing School of Software and Design.
-              It helps users track items on their bucket list, and uses D3 and Google Maps for data visualization.
+              It helps users track items on their bucket list, and uses D3 and the Google Maps API for data visualization.
               This was a solo project.
             </p>
             <div className='project-stack'>
