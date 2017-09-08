@@ -13,11 +13,11 @@ const Projects = () => {
             <img className='project-image' src='images/wanderlist.gif' alt='wanderlist preview'/>
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/WanderList' className='project-github project-links'>
-                <img src='images/github.png' className='project-link-social' alt='github' />
+                <img src='images/github.png' className='project-link-social' alt='github logo link' />
                 {'GitHub'}
               </a>
               <a href='http://mywanderlist.surge.sh/' className='project-hosted project-links'>
-                <img src='images/internet.png' className='project-link-social' alt='live site' />
+                <img src='images/internet.png' className='project-link-social' alt='live site link' />
                 {'Live Site'}
               </a>
             </div>
@@ -41,11 +41,11 @@ const Projects = () => {
             <img className='project-image' src='images/movieTracker.gif' alt='movieTracker preview'/>
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/movieTracker' className='project-github project-links'>
-                <img src='images/github.png' className='project-link-social' alt='github' />
+                <img src='images/github.png' className='project-link-social' alt='github logo link' />
                 {'GitHub'}
               </a>
               <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted project-links'>
-                <img src='images/internet.png' className='project-link-social' alt='live site' />
+                <img src='images/internet.png' className='project-link-social' alt='live site link' />
                 {'Live Site'}
               </a>
             </div>
@@ -71,11 +71,11 @@ const Projects = () => {
             <img className='project-image' src='images/jetfuel.gif' alt='jet fuel preview'/>
             <div className='project-links'>
               <a href='https://github.com/JohnBinning/jetFuel' className='project-github project-links'>
-                <img src='images/github.png' className='project-link-social' alt='github' />
+                <img src='images/github.png' className='project-link-social' alt='github logo link' />
                 {'GitHub'}
               </a>
               <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted project-links'>
-                <img src='images/internet.png' className='project-link-social' alt='live site' />
+                <img src='images/internet.png' className='project-link-social' alt='live site link' />
                 {'Live Site'}
               </a>
             </div>
