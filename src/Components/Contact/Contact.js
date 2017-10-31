@@ -30,7 +30,7 @@ const Contact = () => {
           type="text" 
           name="message" 
           aria-label='your message'
-          placeholder="Your Message"
+          placeholder="Your message"
           required/>
         <button 
           className='contact-input submit-btn' 
