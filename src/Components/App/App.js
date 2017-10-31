@@ -13,12 +13,12 @@ class App extends Component {
     this.state = {
     }
   }
+  
   render() {
     return (
       <div className="app">
         <NavBar />
         <section className='right-side'>
-
           <div className='logo-container'>
             <Link to='/'>
               <img className='logo' alt="John's logo" src='images/whiteCircle.png'/>
@@ -32,7 +32,6 @@ class App extends Component {
             <Route path='/' exact component={ About } />
           </div>
         </section>        
-        
       </div>
     );
   }
