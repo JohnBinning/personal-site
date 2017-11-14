@@ -63,6 +63,10 @@
   padding: 15px;
 }
 
+.project-block {
+  margin-bottom: 20px;
+}
+
 .project-barrier {
   height: 3px;
   width: 70%;
