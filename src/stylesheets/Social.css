@@ -15,14 +15,6 @@
   margin-right: 12px;
 }
 
-.right-soc {
-  margin-right: 10px;
-}
-
-.left-soc {
-  margin-left: 10px;
-}
-
 @media screen and (max-width: 1000px) {
 
   .social-links {
