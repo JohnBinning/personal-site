@@ -9,10 +9,13 @@ body {
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+a {
+  display: block;
+}
 .app,
 .navbar {
   display: flex;
+  display: -webkit-flex;
 }
 
 .app {
@@ -88,8 +91,18 @@ figure {
 
   .right-side {
     width: 100%;
+    height: auto;
   }
 
+  .app {
+    min-height: 100vh;
+  }
+
+  .app,
+  .navbar {
+    display: flex;
+    display: -webkit-flex;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -111,5 +124,6 @@ figure {
     margin-top: 5px;
     margin-bottom: 20px;
   }
+
 
 }
