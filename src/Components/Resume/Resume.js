@@ -31,6 +31,13 @@ const Resume = () => {
         <article className='exp-block grey-block resume-blocks'>
           <div className='experience-container'>
             <div className='job-container'>
+              <h4 className='job-title'><strong>Web Developer</strong></h4>
+              <div className='employer'>Zingfit / Boulder, CO</div>
+              <p className='job-duties'>I create and maintain websites with HTML, CSS, and Javascript. I focus on UX/UI and front end development.</p>
+            </div>
+          </div>
+          <div className='experience-container'>
+            <div className='job-container'>
               <h4 className='job-title'><strong>Human Resources Intake Coordinator</strong></h4>
               <div className='employer'>PASCO Home Health / Lakewood, CO</div>
               <p className='job-duties'>I organized collaboration between various departments to streamline our intake process. I also trained parents of children with disabilities and helped them coordinate with the government to receive services.</p>
@@ -61,7 +68,7 @@ const Resume = () => {
       </figure>
       <figure>
         <h3 className='title'>EDUCATION</h3>
-        <div  className='grey-block education-wrapper resume-blocks'>
+        <div className='grey-block education-wrapper resume-blocks'>
           <article className='school-container'>
             <h4 className='education-type'>BA - HISTORY</h4>
             <div className='school'>University of Colorado, Boulder</div>
