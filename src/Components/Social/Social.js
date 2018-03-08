@@ -9,7 +9,7 @@ export const Social = () => {
         <img src='images/github.png' className='github social-img' alt='github logo link' />
       </a>
       <a href='https://www.linkedin.com/in/john-binning/' target='_blank' className='social-links' role='link'> 
-        <img src='images/linkedin-red.png' className='linkedin social-img' alt='linkedin logo link' />
+        <img src='images/linkedin-button.png' className='linkedin social-img' alt='linkedin logo link' />
       </a>
     </article>
   )
