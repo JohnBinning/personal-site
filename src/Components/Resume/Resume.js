@@ -7,20 +7,23 @@ const Resume = () => {
     <article className="resume">
       <figure>
         <h3 className='title'>PROJECTS</h3>
-        <Link to='/projects' className='p-link' ><div className='grey-block projects-link resume-blocks'>Click to See Projects</div></Link>
+        <Link to='/projects' className='p-link'><div className='grey-block projects-link resume-blocks'>Click to See Projects</div></Link>
       </figure>
       <figure>
         <h3 className='title'>SKILLS</h3>
         <div className='skills-container grey-block resume-blocks'>
           <p className='resume-skill'>Javascript</p>
+          <p className='resume-skill'>Java</p>
+          <p className='resume-skill'>Groovy</p>
           <p className='resume-skill'>HTML5 & CSS3</p>
           <p className='resume-skill'>React/Redux</p>
+          <p className='resume-skill'>Vue JS</p>
           <p className='resume-skill'>Knockout JS</p>
           <p className='resume-skill'>jQuery</p>
           <p className='resume-skill'>Node JS</p>
           <p className='resume-skill'>Express</p>
           <p className='resume-skill'>PostgreSQL</p>
-          <p className='resume-skill'>Testing: Mocha, Chai, QUnit, Enzyme, Jest</p>
+          <p className='resume-skill'>Testing: Mocha, Chai, QUnit, Enzyme, Jest, Selenium</p>
           <p className='resume-skill'>Git and Agile Workflow</p>
           <p className='resume-skill'>WAI-ARIA</p>
           <p className='resume-skill'>Responsive UX/UI</p>
