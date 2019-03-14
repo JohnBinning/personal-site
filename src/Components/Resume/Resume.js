@@ -34,6 +34,13 @@ const Resume = () => {
         <article className='exp-block grey-block resume-blocks'>
           <div className='experience-container'>
             <div className='job-container'>
+              <h4 className='job-title'><strong>Software Engineer</strong></h4>
+              <div className='employer'>Zen Planner / Highlands Ranch, CO</div>
+              <p className='job-duties'>I develop, maintain and test frontend and backend code for our fitness oriented business managment software.</p>
+            </div>
+          </div>
+          <div className='experience-container'>
+            <div className='job-container'>
               <h4 className='job-title'><strong>Web Developer</strong></h4>
               <div className='employer'>Zingfit / Boulder, CO</div>
               <p className='job-duties'>I create and maintain websites with HTML, CSS, and Javascript. I focus on UX/UI and front end development.</p>
