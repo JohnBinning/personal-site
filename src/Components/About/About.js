@@ -9,7 +9,7 @@ const About = () => {
         I am a former insurance salesman/educator/HR rep turned web developer. 
         I am passionate about creating interactive and accessible applications that communicate ideas 
         in an intuitive fashion.
-        I specialize in front end development with React, Redux, or jQuery, and I also am comfortable developing back ends with Node/Express.
+        While I specialize in front end development with Vue.js, React/Redux, or jQuery, I also am comfortable with back end development with Java or Node/Express.
         Outside of web development, I love baseball, hiking in my home state of Colorado, and fall.
       </p>
     </article>

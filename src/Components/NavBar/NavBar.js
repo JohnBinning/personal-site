@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { Social } from '../Social/Social';
 import '../../stylesheets/NavBar.css';
 
-// import './assets/stylesheets/NavBar.css';
-
 export const NavBar = () => {
   return (
     <article className='navbar'>
@@ -20,5 +18,5 @@ export const NavBar = () => {
       <Social />
       </div>
     </article>
-  )
+  );
 }

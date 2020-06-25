@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../stylesheets/Projects.css';
 
-
 const Projects = () => {
   return (
     <section className='projects'>
@@ -123,7 +122,7 @@ const Projects = () => {
         </figure>
       </div>
     </section>
-  )
+  );
 }
 
 export default Projects
