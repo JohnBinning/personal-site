@@ -12,12 +12,13 @@ const Resume = () => {
       <figure>
         <h3 className='title'>SKILLS</h3>
         <div className='skills-container grey-block resume-blocks'>
-          <p className='resume-skill'>Javascript</p>
-          <p className='resume-skill'>Java</p>
-          <p className='resume-skill'>Groovy</p>
-          <p className='resume-skill'>HTML5 & CSS3</p>
+          <p className='resume-skill'>Javascript/Typescript</p>
           <p className='resume-skill'>React/Redux</p>
-          <p className='resume-skill'>Vue JS</p>
+          <p className='resume-skill'>Next.js</p>
+          <p className='resume-skill'>GraphQL</p>
+          <p className='resume-skill'>WCAG/Accessibility</p>
+          <p className='resume-skill'>Java</p>
+          <p className='resume-skill'>HTML5 & CSS3</p>
           <p className='resume-skill'>Knockout JS</p>
           <p className='resume-skill'>jQuery</p>
           <p className='resume-skill'>Node JS</p>
@@ -32,6 +33,20 @@ const Resume = () => {
       <figure>
         <h3 className='title'>EXPERIENCE</h3>
         <article className='exp-block grey-block resume-blocks'>
+          <div className='experience-container'>
+            <div className='job-container'>
+              <h4 className='job-title'><strong>Software Engineer</strong></h4>
+              <div className='employer'>GuideCX / Remote</div>
+              <p className='job-duties'>Frontend engineer with React, GraphQL, Typescript and CSS. Responsible for building, testing and maintaining React component library.</p>
+            </div>
+          </div>
+          <div className='experience-container'>
+            <div className='job-container'>
+              <h4 className='job-title'><strong>Software Engineer</strong></h4>
+              <div className='employer'>Lytics / Remote</div>
+              <p className='job-duties'>Frontend engineer with React, Ember, Typescript and LESS/CSS.  I lead an effert to make the application compatible with WCAG accessibillity standards</p>
+            </div>
+          </div>
           <div className='experience-container'>
             <div className='job-container'>
               <h4 className='job-title'><strong>Software Engineer</strong></h4>
