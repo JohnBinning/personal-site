@@ -43,10 +43,10 @@ const Projects = () => {
                 <img src='images/github.png' className='project-link-social' alt='github logo link' />
                 {'GitHub'}
               </a>
-              <a href='https://turing-mentr.herokuapp.com/' className='project-hosted project-links'>
+              {/* <a href='https://turing-mentr.herokuapp.com/' className='project-hosted project-links'>
                 <img src='images/internet.png' className='project-link-social' alt='live site link' />
                 {'Live Site'}
-              </a>
+              </a> */}
             </div>
             <p className='project-description'>
               Mentr was a group project created in one week during my final module as a student at the Turing School of Software and Design.
@@ -72,10 +72,10 @@ const Projects = () => {
                 <img src='images/github.png' className='project-link-social' alt='github logo link' />
                 {'GitHub'}
               </a>
-              <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted project-links'>
+              {/* <a href='https://jenn-peavler-movie-tracker.herokuapp.com/' className='project-hosted project-links'>
                 <img src='images/internet.png' className='project-link-social' alt='live site link' />
                 {'Live Site'}
-              </a>
+              </a> */}
             </div>
             <p className='project-description'>
               Movie Tracker was a group project created in one week during my third module as a student at the Turing School of Software and Design.
@@ -102,10 +102,10 @@ const Projects = () => {
                 <img src='images/github.png' className='project-link-social' alt='github logo link' />
                 {'GitHub'}
               </a>
-              <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted project-links'>
+              {/* <a href='https://steelbirdfood.herokuapp.com/' className='project-hosted project-links'>
                 <img src='images/internet.png' className='project-link-social' alt='live site link' />
                 {'Live Site'}
-              </a>
+              </a> */}
             </div>
             <p className='project-description'>
               jetFuel was a paired project created in one week during my final module as a student at the Turing School of Software and Design.
