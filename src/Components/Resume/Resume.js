@@ -19,14 +19,13 @@ const Resume = () => {
           <p className='resume-skill'>WCAG/Accessibility</p>
           <p className='resume-skill'>Java</p>
           <p className='resume-skill'>HTML5 & CSS3</p>
-          <p className='resume-skill'>Knockout JS</p>
+          <p className='resume-skill'>Knockout.js</p>
           <p className='resume-skill'>jQuery</p>
-          <p className='resume-skill'>Node JS</p>
+          <p className='resume-skill'>Node.js</p>
           <p className='resume-skill'>Express</p>
           <p className='resume-skill'>PostgreSQL</p>
           <p className='resume-skill'>Testing: Mocha, Chai, QUnit, Enzyme, Jest, Selenium</p>
           <p className='resume-skill'>Git and Agile Workflow</p>
-          <p className='resume-skill'>WAI-ARIA</p>
           <p className='resume-skill'>Responsive UX/UI</p>
         </div>
       </figure>
