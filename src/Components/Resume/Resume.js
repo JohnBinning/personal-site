@@ -24,7 +24,7 @@ const Resume = () => {
           <p className='resume-skill'>Node.js</p>
           <p className='resume-skill'>Express</p>
           <p className='resume-skill'>PostgreSQL</p>
-          <p className='resume-skill'>Testing: Mocha, Chai, QUnit, Enzyme, Jest, Selenium</p>
+          <p className='resume-skill'>Testing: Mocha, Chai, QUnit, Enzyme, Jest, Selenium, Cypress</p>
           <p className='resume-skill'>Git and Agile Workflow</p>
           <p className='resume-skill'>Responsive UX/UI</p>
         </div>

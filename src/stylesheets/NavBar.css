@@ -9,7 +9,7 @@
   color: rgba(251, 13, 27, .5)
 }*/
 
-.selected {
+.nav-link.active {
   color: #FB0D1B !important;
 }
 

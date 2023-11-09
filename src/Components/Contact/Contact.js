@@ -36,7 +36,7 @@ const Contact = () => {
         <button 
           className='contact-input submit-btn' 
           type="submit">
-          Send
+          SEND
         </button>
       </form>
     </section>
