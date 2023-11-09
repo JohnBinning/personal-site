@@ -7,18 +7,28 @@
     "history": "^4.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.18.0",
-    "react-router-dom": "^6.18.0"
-  },
-  "devDependencies": {
-    "react-scripts": "1.0.10"
+    "react-router": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.11.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "surge /Users/johnbinning/personal-site/personal-site/build/ www.johnbinning.com",
+    "deploy": "surge /Users/johnbinning/personal-site/build/ www.johnbinning.com",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "author": "John Binning"
+  "author": "John Binning",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
